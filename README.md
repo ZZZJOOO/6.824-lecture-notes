@@ -6,30 +6,30 @@ Lectures
 
 Lecture notes from 6.824, taught by [Prof. Robert T. Morris](http://pdos.csail.mit.edu/rtm/). These lecture notes are slightly modified from the ones posted on the 6.824 [course website](http://nil.csail.mit.edu/6.824/2015/schedule.html).
 
- * Lecture 1: [Introduction](l01-intro.html): distributed system definition, motivations, architecture, implementation, performance, fault-tolerance, consistency, MapReduce 
- * Lecture 2: [Remote Procedure Calls (RPCs)](l02-rpc.html): RPC overview, marshalling, binding, threads, "at-least-once", "at-most-once", "exactly once", Go's RPC, thread synchronization
- * Lecture 3: [Fault tolerance](l03-fault-tolerance.html): primary-backup replication, state transfer, "split-brain", Remus (NSDI 2008),  
- * Lecture 4: [Flat datacenter storage](l04-more-primary-backup.html): flat datacenter storage, bisection bandwidth, striping
+ * Lecture 1: [Introduction](l01-intro.md): distributed system definition, motivations, architecture, implementation, performance, fault-tolerance, consistency, MapReduce 
+ * Lecture 2: [Remote Procedure Calls (RPCs)](l02-rpc.md): RPC overview, marshalling, binding, threads, "at-least-once", "at-most-once", "exactly once", Go's RPC, thread synchronization
+ * Lecture 3: [Fault tolerance](l03-fault-tolerance.md): primary-backup replication, state transfer, "split-brain", Remus (NSDI 2008),  
+ * Lecture 4: [Flat datacenter storage](l04-more-primary-backup.md): flat datacenter storage, bisection bandwidth, striping
  * Lecture 5: [Paxos](l05-paxos.html): Paxos, consensus algorithms
-    + [Paxos algorithm description](paxos-algorithm.html)
- * Lecture 6: [Raft](l06-raft.html): Raft, a more understandable consensus algorithm
- * Lecture 7: **Google Go** [_guest lecture_](l07-go.html) by Russ Cox
- * Lecture 8: [Harp](l08-harp.html): distributed file system, "the UPS trick", witnesses
- * Lecture 9: [IVY](l09-dist-comp-seq-consistency.html): distributed shared memory, sequential consistency
- * Lecture 10: [TreadMarks](l10-treadmarks.html): userspace distributed shared memory system, vector timestamps, release consistency (lazy/eager), false sharing, write amplification
- * Lecture 11: [Ficus](l11-ficus.html): optimistic concurrency control, vector timestamps, conflict resolution
- * Lecture 12: [Bayou](l12-bayou.html): disconnected operation, eventual consistency, Bayou
- * Lecture 13: [MapReduce](l13-mapreduce.html): MapReduce, scalability, performance
- * Lecture 14: **Spark** [_guest lecture_](l14-spark.html) by Matei Zaharia: Resilient Distributed Datasets, Spark
- * Lecture 15: **Spanner** [_guest lecture_](l15-spanner.html) by Wilson Hsieh, Google: Spanner, distributed database, clock skew
- * Lecture 16: [Memcache at Facebook](l16-memcached.html): web app scalability, look-aside caches, Memcache
- * Lecture 17: [PNUTS Yahoo!](l17-pnuts.html): distributed key-value store, atomic writes
- * Lecture 18: [Dynamo](l18-dynamo.html): distributed key-value store, eventual consistency
- * Lecture 19: **HubSpot** [_guest lecture_](l19-hubspot.html)
- * Lecture 20: [Two phase commit (2PC)](l20-argus.html): two-phase commit, Argus
- * Lecture 21: [Optimistic concurrency control](l21-thor.html)
- * Lecture 22: [Peer-to-peer, trackerless Bittorrent and DHTs](l22-peer-to-peer.html): Chord, routing
- * Lecture 23: [Bitcoin](l23-bitcoin.html): verifiable public ledgers, proof-of-work, double spending
+    + [Paxos algorithm description](paxos-algorithm.md)
+ * Lecture 6: [Raft](l06-raft.md): Raft, a more understandable consensus algorithm
+ * Lecture 7: **Google Go** [_guest lecture_](l07-go.md) by Russ Cox
+ * Lecture 8: [Harp](l08-harp.md): distributed file system, "the UPS trick", witnesses
+ * Lecture 9: [IVY](l09-dist-comp-seq-consistency.md): distributed shared memory, sequential consistency
+ * Lecture 10: [TreadMarks](l10-treadmarks.md): userspace distributed shared memory system, vector timestamps, release consistency (lazy/eager), false sharing, write amplification
+ * Lecture 11: [Ficus](l11-ficus.md): optimistic concurrency control, vector timestamps, conflict resolution
+ * Lecture 12: [Bayou](l12-bayou.md): disconnected operation, eventual consistency, Bayou
+ * Lecture 13: [MapReduce](l13-mapreduce.md): MapReduce, scalability, performance
+ * Lecture 14: **Spark** [_guest lecture_](l14-spark.md) by Matei Zaharia: Resilient Distributed Datasets, Spark
+ * Lecture 15: **Spanner** [_guest lecture_](l15-spanner.md) by Wilson Hsieh, Google: Spanner, distributed database, clock skew
+ * Lecture 16: [Memcache at Facebook](l16-memcached.md): web app scalability, look-aside caches, Memcache
+ * Lecture 17: [PNUTS Yahoo!](l17-pnuts.md): distributed key-value store, atomic writes
+ * Lecture 18: [Dynamo](l18-dynamo.md): distributed key-value store, eventual consistency
+ * Lecture 19: **HubSpot** [_guest lecture_](l19-hubspot.md)
+ * Lecture 20: [Two phase commit (2PC)](l20-argus.md): two-phase commit, Argus
+ * Lecture 21: [Optimistic concurrency control](l21-thor.md)
+ * Lecture 22: [Peer-to-peer, trackerless Bittorrent and DHTs](l22-peer-to-peer.md): Chord, routing
+ * Lecture 23: [Bitcoin](l23-bitcoin.md): verifiable public ledgers, proof-of-work, double spending
 
 Lectures form other years
 -------------------------
